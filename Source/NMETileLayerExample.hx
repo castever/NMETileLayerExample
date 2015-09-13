@@ -39,7 +39,7 @@ class NMETileLayerExample extends Sprite {
 		
 		// tile-layer
 		var layer = new TileLayer(tilesheet); // optional flags: smoothing, additive blendmode
-		var sprite = new TileClip("Runner", 32);
+		var sprite = new TileClip(layer, "Runner", 32);
 		sprite.x = 300;
 		sprite.y = 300;
 			
